@@ -3,7 +3,7 @@ try:
     choice = int(input("""Choose an option:
                          index of target item. 
                          value at a given position 
-                         1 or 2: """))
+                         1 or 2:"""))
     if choice == 1:
         target = int(input("Enter your target item: "))
         if target in ls:
